@@ -1,2 +1,6 @@
-'Cookie': 'PHPSESSID = 2v9vgarlcr4v548jutpm7hoo71;BdXlz_auth = 72fcx39rm9PWLzHuPkmVGGXyyIFBIyPeFRNuC439s2vjPwYE8HQI2qtc - 444iWXMCcv6KQhBNK2o57kR_I - 0ESMIhJJ_c0u1dOHvdDBBEXgVdOXbb_aHX5CYrljFXMabClgulns1g1tFgL4D5wVRA6WgmHe -;BdXlz__userid = 4120wofNOdiQra - Jsysz2lIo8NzxKQo2PqiMfkBf9tYU;BdXlz__username = 3d778wTBLkaquEzT7ClQc1cxtyPdj3CF0rxz5b - Yw6SydA;BdXlz__groupid = 73cbgKhSXlxR - NHYVIWzx3lI4KHNfw3CWP29B21K;BdXlz__nickname = 74d6B6ViHuGpBIiAXHgiQ3VKowhgMZ - hWeni2lF3G10gTTDRKBMSfKpVgfvXXC4A',
-'Cookie': 'PHPSESSID=2v9vgarlcr4v548jutpm7hoo71; BdXlz_auth=72fcx39rm9PWLzHuPkmVGGXyyIFBIyPeFRNuC439s2vjPwYE8HQI2qtc-444iWXMCcv6KQhBNK2o57kR_I-0ESMIhJJ_c0u1dOHvdDBBEXgVdOXbb_aHX5CYrljFXMabClgulns1g1tFgL4D5wVRA6WgmHe-; BdXlz__userid=4120wofNOdiQra-Jsysz2lIo8NzxKQo2PqiMfkBf9tYU; BdXlz__username=3d778wTBLkaquEzT7ClQc1cxtyPdj3CF0rxz5b-Yw6SydA; BdXlz__groupid=73cbgKhSXlxR-NHYVIWzx3lI4KHNfw3CWP29B21K; BdXlz__nickname=74d6B6ViHuGpBIiAXHgiQ3VKowhgMZ-hWeni2lF3G10gTTDRKBMSfKpVgfvXXC4A',
+# -*- coding:utf-8 -*-
+a = {'htmlAnalysis_question': [1, '（单选题）某高层建筑位于抗震设防烈度7度区，初勘覆盖层厚度为50.0m，据《岩土工程勘察规范》GB 50021-2001（2009年版）的规定，详勘时划分的场地类别布置钻孔深度合适的为下列哪个选项?\r\n'], 'htmlAnalysis_questionImg': '', 'htmlAnalysis_options': ['（A）20.0m\xa0', '（B）50.0m', '（C）55.0m\xa0', '（D）80.0m'], 'htmlAnalysis_answer': ['【答案】C', '\r\n【解析】根据《岩土工程勘察规范》GB 50021-2001（2009年版）页第5.7.2~5.7.4条文说明，勘察时应有一定的勘察孔满足计算土层等效剪切波速和覆盖层厚度，，并分层测定土的剪切波速，本题覆盖层在50m左右，且可能为中软土，故勘探孔不能只达到20m，应提供可靠的的剪切波速和覆盖层厚度值，故取55m最合适。\r\n']}
+import re
+import globalVar
+for i in range(5):
+    print(i)
