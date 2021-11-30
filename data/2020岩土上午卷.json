@@ -548,7 +548,7 @@
             {
                 "name": "A",
                 "content": "1.75m \r",
-                "isanswer": false
+                "isanswer": true
             },
             {
                 "name": "B",
@@ -566,7 +566,7 @@
                 "isanswer": false
             }
         ],
-        "detail": "",
+        "detail": "<img src=\"http://file.zmkj6.top/20210129092047128.png\">",
         "index": 19
     },
     {
@@ -708,7 +708,7 @@
             {
                 "name": "C",
                 "content": "1.5 ",
-                "isanswer": false
+                "isanswer": true
             },
             {
                 "name": "D",
@@ -716,7 +716,7 @@
                 "isanswer": false
             }
         ],
-        "detail": "",
+        "detail": "<img src=\"http://file.zmkj6.top/20210129093305925.png\">",
         "index": 24
     },
     {
@@ -1573,12 +1573,12 @@
             {
                 "name": "B",
                 "content": "砂井砂料相同，砂井直径相同，地层渗透性越大，砂井纵向通水量越大\r",
-                "isanswer": false
+                "isanswer": true
             },
             {
                 "name": "C",
                 "content": "竖向砂井穿透受压土层时，计算点深度越大，土层径向固结度越大\r",
-                "isanswer": false
+                "isanswer": true
             },
             {
                 "name": "D",
@@ -1586,7 +1586,7 @@
                 "isanswer": false
             }
         ],
-        "detail": "",
+        "detail": "<img src=\"http://file.zmkj6.top/20210129105049645.png\">",
         "index": 53
     },
     {

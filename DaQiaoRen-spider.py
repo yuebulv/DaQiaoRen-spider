@@ -79,7 +79,7 @@ def htmlAnalysis_DaQiaoRenQusetionBank(htmlText):
         except IndexError:
             pass
     # print('htmlAnalysis_answer:', htmlAnalysis_answer_new)
-    htmlAnalysis_answerImg = tree.xpath("/html/body/div//div[@class='daanjiexi']/p/img/@scr")
+    htmlAnalysis_answerImg = tree.xpath("/html/body/div//div[@class='daanjiexi']/p/img/@src")
     try:
         htmlAnalysis_answerImg_new = htmlAnalysis_answerImg[0]
     except IndexError:
@@ -264,6 +264,7 @@ def getQuestionDic(url):
         answer = ''
         errorList.append('答案解析中有可能是图片,需要手动在answer中标注答案')
         print('答案解析中有可能是图片,需要手动在answer中标注答案')
+        print('imgurl:',questionDic['htmlAnalysis_answerImg'])
         # return '错误'
     detail = ''
     try:
@@ -316,7 +317,7 @@ if __name__ == '__main__':
 
             if questionDic_dic_includeError['error']:
                 print(questionDic_dic_includeError)
-                error = saveName_A + f'第{i}题' + '\\t'.join(questionDic_dic_includeError['error'])
+                error = saveName_A + f'第{i+1}题' + '\\t'.join(questionDic_dic_includeError['error'])
                 errorList.append(error)
             # print(questionDic_dic)
             # questionDic = questionDic_dic['questionDic']
@@ -331,4 +332,4 @@ if __name__ == '__main__':
         # fp.writelines(errorList)
         for temp in errorList:
             fp.write(temp)
-            fp.write('\r\n')
+            fp.write('\r')
