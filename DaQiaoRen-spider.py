@@ -140,12 +140,12 @@ def getOptionsDic(questionType, name, index: int, question, questionImgUrl, opti
     if re.match(globalVar.regexIsUrl, questionImgUrl) is not None:
         status = download_img(questionImgUrl)
     # if status:
-        question = question + f'<img src="http://file.zmkj6.top/{os.path.basename(questionImgUrl)}">'
+        question = question + f'<img src="https://gitee.com/yuebulv/picture/raw/master/yantu/{os.path.basename(questionImgUrl)}">'
 
     if re.match(globalVar.regexIsUrl, detaiImglUrl) is not None:
         status = download_img(detaiImglUrl)
     # if status:
-        detail = detail + f'<img src="http://file.zmkj6.top/{os.path.basename(detaiImglUrl)}">'
+        detail = detail + f'<img src="https://gitee.com/yuebulv/picture/raw/master/yantu/{os.path.basename(detaiImglUrl)}">'
     dic = {
         "type": questionType,
         "id": 0,
@@ -296,7 +296,7 @@ if __name__ == '__main__':
     xpathStr = "/html/body/a/@href"
     url_list = geturl_DaQiaoRen(url, headers, xpathStr)
 
-    url_dic_list = url_zhishiPaper(headers, url_list[0:1])
+    url_dic_list = url_zhishiPaper(headers, url_list[1:2])
 
     regxPage = r'=(\d*)$'
     regxUrl = r'(.+=)\d*$'
